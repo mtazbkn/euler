@@ -1,0 +1,20 @@
+#copy pasted from my github
+
+
+
+thousand = 1000
+
+
+print(sum(int(number) for number in str(2**thousand)))
+
+
+euler = 600851475143 
+two = 2
+
+while two * two < euler:
+    while euler%two == 0:
+        euler = euler / two
+    two = two + 1
+
+print(euler)
+
